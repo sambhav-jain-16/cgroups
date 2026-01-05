@@ -30,7 +30,6 @@ full avg10=0.50 avg60=1.00 avg300=1.50 total=50000`
 
 const exampleRdmaCurrent = `mlx5_0 hca_handle=10 hca_object=20`
 
-
 func TestAddCpuStats(t *testing.T) {
 	// We're using a fake cgroupfs.
 	cgroups.TestMode = true
@@ -456,4 +455,3 @@ func TestAddStatsValidation(t *testing.T) {
 		})
 	}
 }
-
